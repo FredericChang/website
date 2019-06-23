@@ -319,6 +319,11 @@ You have successfully executed your transaction on the Libra testnet and transfe
     * Run `rustup update` from your libra directory.
 * Re-run setup script from your libra directory:
     * `./scripts/dev_setup.sh`
+  ```plaintext
+  Please re-run setup script, if it occured as shown below.
+  Not able to connect to validator at ac.testnet.libra.org:8000, error RpcFailure(RpcStatus { status: DeadlineExceeded,       details: Some("Deadline Exceeded") })
+  ```
+
 
 ### Client Build and Run
 
